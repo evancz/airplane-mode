@@ -23,3 +23,13 @@ This is just a wrapper around [a Python file](Airplane%20Mode.app/Contents/Resou
 You can get to these files pretty easy too. Just right click the icon and go to "Show Package Contents". That will let you get at all the relevant files in Finder.
 
 ![Customize](customize.png)
+
+
+## How do I make something like this?
+
+I made it with this [Platypus](http://www.sveinbjorn.org/platypus) thing for Mac. It was super easy and fun. Just wrote a simple Python script and was able to bundle it all up with a custom icon. Had a great experience, trying to think of more things I can automate with a simple button like this!
+
+
+## Feature Request
+
+Can someone figure out how to make the icon turn on and off depending on the status? Is that even possible? It would be sick though, so open a PR if you figure it out!
