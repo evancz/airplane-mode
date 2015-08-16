@@ -1,0 +1,30 @@
+#!/usr/bin/python
+
+import os
+
+
+## READ CURRENT STATUS
+
+statusFile = 'status'
+status = True
+
+
+if os.path.exists(statusFile):
+  with open(statusFile, 'r') as handle:
+    line = handle.read()
+    status = line != 'True'
+
+
+with open(statusFile, 'w') as handle:
+  handle.write(str(status))
+
+
+## UPDATE HOSTS FILE
+
+newHostsFile = 'on' if status else 'off'
+
+with open('/etc/hosts', 'w') as hostsHandle:
+  with open(newHostsFile, 'r') as newHostsHandle:
+    newContent = newHostsHandle.read()
+    hostsHandle.write(newContent)
+
