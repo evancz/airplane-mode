@@ -11,7 +11,7 @@ Just click it to toggle between airplane mode and normal.
 
 ## Install
 
-All you need is the `Airplane\ Mode.app` part (452kb). So get this repo as a zip and grab it.
+All you need is the `Airplane\ Mode.app` part (452kb). So just [download the `.zip`](https://github.com/evancz/airplane-mode/archive/master.zip) and grab it out of there.
 
 From there just click the icon to toggle things on and off.
 
