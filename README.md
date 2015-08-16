@@ -18,7 +18,7 @@ From there just click the icon to toggle things on and off.
 
 ## Customize
 
-This works by messing with your `/etc/hosts` file. The [`on`](Airplane+Mode.app/Contents/Resources/on) and [`off`](Airplane+Mode.app/Contents/Resources/on) files determine how things work. You can just edit them. Add or remove websites to the list depending on your bad habits.
+This works by messing with your `/etc/hosts` file. The [`on`](Airplane%20Mode.app/Contents/Resources/on) and [`off`](Airplane%20Mode.app/Contents/Resources/on) files determine how things work. You can just edit them. Add or remove websites to the list depending on your bad habits.
 
 You can get to these files pretty easy too. Just right click the icon and go to "Show Package Contents". That will let you get at all the relevant files in Finder.
 
